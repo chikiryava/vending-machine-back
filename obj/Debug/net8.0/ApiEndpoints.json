@@ -1,0 +1,321 @@
+[
+  {
+    "ContainingType": "VendingMachineApp.Controllers.BrandsController",
+    "Method": "GetBrands",
+    "RelativePath": "api/Brands",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WendingApp.Models.Brand, VendingMachineApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VendingMachineApp.Controllers.BrandsController",
+    "Method": "CreateBrand",
+    "RelativePath": "api/Brands",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "brand",
+        "Type": "WendingApp.Models.Brand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WendingApp.Models.Brand",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VendingMachineApp.Controllers.BrandsController",
+    "Method": "GetBrand",
+    "RelativePath": "api/Brands/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WendingApp.Models.Brand",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "VendingMachineApp.Controllers.BrandsController",
+    "Method": "UpdateBrand",
+    "RelativePath": "api/Brands/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "brand",
+        "Type": "WendingApp.Models.Brand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VendingMachineApp.Controllers.BrandsController",
+    "Method": "DeleteBrand",
+    "RelativePath": "api/Brands/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VendingMachineApp.Controllers.CoinsController",
+    "Method": "GetAllCoins",
+    "RelativePath": "api/Coins",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VendingMachineApp.Controllers.CoinsController",
+    "Method": "GetCoinById",
+    "RelativePath": "api/Coins/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VendingMachineApp.Controllers.CoinsController",
+    "Method": "UpdateCoinQuantity",
+    "RelativePath": "api/Coins/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "coin",
+        "Type": "VendingMachineApp.Models.DTOs.UpdateCoinDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VendingMachineApp.Controllers.DrinksController",
+    "Method": "GetAllDrinks",
+    "RelativePath": "api/Drinks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VendingMachineApp.Controllers.DrinksController",
+    "Method": "AddDrink",
+    "RelativePath": "api/Drinks",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "drinkDto",
+        "Type": "VendingMachineApp.Models.DTOs.AddDrinkDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VendingMachineApp.Controllers.DrinksController",
+    "Method": "GetDrinkById",
+    "RelativePath": "api/Drinks/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VendingMachineApp.Controllers.DrinksController",
+    "Method": "UpdateDrink",
+    "RelativePath": "api/Drinks/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedDrinkDto",
+        "Type": "VendingMachineApp.Models.DTOs.UpdateDrinkDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VendingMachineApp.Controllers.DrinksController",
+    "Method": "DeleteDrink",
+    "RelativePath": "api/Drinks/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VendingMachineApp.Controllers.DrinksController",
+    "Method": "ImportDrinks",
+    "RelativePath": "api/Drinks/ImportDrinks",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VendingMachineApp.Controllers.DrinksController",
+    "Method": "GetDrinkNames",
+    "RelativePath": "api/Drinks/names",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VendingMachineApp.Controllers.OrdersController",
+    "Method": "CreateOrderAndPay",
+    "RelativePath": "api/Orders",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createOrderDto",
+        "Type": "VendingMachineApp.Models.DTOs.CreateOrderDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VendingMachineApp.Controllers.OrdersController",
+    "Method": "GetAllOrders",
+    "RelativePath": "api/Orders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VendingMachineApp.Controllers.OrdersController",
+    "Method": "GetOrderById",
+    "RelativePath": "api/Orders/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VendingMachineApp.Controllers.OrdersController",
+    "Method": "DeleteOrder",
+    "RelativePath": "api/Orders/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
