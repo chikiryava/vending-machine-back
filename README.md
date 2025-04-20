@@ -11,4 +11,4 @@
 	add-migration initial -context OrderContext -outputdir Migrations/Order -project VendingMachineApp.Infrastructure
 	update-database -context InventoryContext
 	update-database -context OrderContext
-   - Запустите серверную часть проекта.
+- Запустите серверную часть проекта.
