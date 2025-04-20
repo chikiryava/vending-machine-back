@@ -1,0 +1,6 @@
+@VendingMachineApp_HostAddress = http://localhost:7153
+
+GET {{VendingMachineApp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
